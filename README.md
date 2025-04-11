@@ -259,24 +259,24 @@ Compile the convert.x tool as per the instructions in the SCALE-MAMBA repo. Run 
 
 The `src/` directory is organized into two main subfolders:
 
-- `existing/`: Contains well-known Bristol circuits collected from various online sources.  
+- `Existing/`: Contains well-known Bristol circuits collected from various online sources.  
   Each circuit is accompanied by documentation or a reference to its origin where available.
 
-- `generated/`: Contains circuits created as part of this project.  
+- `Generated/`: Contains circuits created as part of this project.  
   While not yet comprehensive, these circuits are optimized and in many cases more efficient than publicly available alternatives.
 
 ---
 
 ### 🗂️ Directory Overview
 
-| Folder       | Description                                                                 | Examples                       |
-|--------------|-----------------------------------------------------------------------------|--------------------------------|
-| `src/existing/` | Collection of previously published circuits from the internet               | `SHA256.txt`, `AES.txt`        |
-| `src/generated/`| Project-generated circuits with improved efficiency and simplified logic | `Keccak-f-1600`, `adder32.txt` |
+| Folder           | Description                                                                 | Examples                       |
+|------------------|-----------------------------------------------------------------------------|--------------------------------|
+| `src/Existing/`  | Collection of previously published circuits from the internet               | `SHA256.txt`, `AES.txt`        |
+| `src/Generated/` | Project-generated circuits with improved efficiency and simplified logic | `Keccak-f-1600`, `adder32.txt` |
 
 ---
 
-✅ Note: New optimized circuits will continue to be added to the `generated/` folder as the project evolves.
+✅ Note: New optimized circuits will continue to be added to the `Generated/` folder as the project evolves.
 
 
 
